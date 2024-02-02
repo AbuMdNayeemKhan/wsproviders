@@ -168,6 +168,10 @@ body, html {
 .common__footer--copyright--logo img {
   margin-bottom: 40px;
 }
+.common__footer--copyright--logo h1 {
+  margin-bottom: 36px;
+  color: white;
+}
 .common__footer--copyright--social ul {
   display: flex;
   justify-content: center;
