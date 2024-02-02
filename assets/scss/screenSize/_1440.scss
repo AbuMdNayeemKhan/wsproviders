@@ -1,0 +1,66 @@
+//====================COMMON POPUP START====================//
+.talk__popup--color{
+    .modal-dialog{
+        max-width: 1212px;
+        .modal-content{
+        }
+        .modal-header{
+        }
+    }
+}
+
+.talk__popup{
+    padding: 0px 100px 36px 100px;
+    h1{
+    }
+    &--content{
+        &--profile{
+            img{
+            }
+            ul{
+                li{
+                    a{
+                        img{
+                        }
+                    }
+                }
+            }
+        }
+        &--form{
+            min-width: 500px;
+            form{
+                input{
+                }
+                textarea{
+                }
+                input[type=submit]{
+                }
+            }
+        }
+    }
+}
+.thanks__popup--color{
+    .modal-dialog{
+        max-width: 1212px;
+        .modal-content{
+        }
+        .modal-header{
+        }
+    }
+}
+.thanks__popup{
+    padding: 100px 100px 100px 100px;
+    &--content{
+        img{
+        }
+        h1{
+        }
+        p{
+        }
+        a{
+            &:hover{
+            }
+        }
+    }
+}
+//====================COMMON POPUP ENDED====================//
