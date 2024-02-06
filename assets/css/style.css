@@ -1245,6 +1245,7 @@ body, html {
   object-position: center;
   margin: 0 auto;
   margin-bottom: 30px;
+  border-radius: 50%;
 }
 .talk__popup--content--profile ul {
   position: relative;
