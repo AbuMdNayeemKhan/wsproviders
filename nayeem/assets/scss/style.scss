@@ -1,0 +1,12 @@
+//====================Use common SCSS====================// 
+@import "common/common";
+@import "common/variables";
+@import "common/mixing";
+
+//====================Use Sections Scss====================//
+@import "sections/navbar";
+@import "sections/home";
+@import "sections/about";
+@import "sections/projects";
+@import "sections/services";
+@import "sections/contact";

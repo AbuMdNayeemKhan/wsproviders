@@ -1,0 +1,42 @@
+.projects{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url("../img/project-bg-bottom-left-right.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    &-hero{
+        margin: 170px 0 0 0;
+        z-index: 1;
+        h2{
+            font-family: 'Abril Fatface';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 86px;
+            color: #000000;
+            text-align: center;
+        }
+    }
+    &-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 100px;
+        img{
+            height: 488px;
+            width: 439px;
+        }
+    }
+    &-top-right-bg{
+        position: absolute;
+        top: 90px;
+        left: 0;
+        z-index: -1;
+        img{
+            height: 361px;
+            width: 525px;
+        }
+    }
+}

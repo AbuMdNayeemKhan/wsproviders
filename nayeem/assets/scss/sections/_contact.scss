@@ -1,0 +1,103 @@
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/contact-bg-bottom.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    position: relative;
+    overflow: hidden;
+    &-content{
+        margin: 160px 0 0 0;
+        h1{
+            font-family: 'Abril Fatface';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 86px;
+            color: #000000;
+            margin-bottom: 36px;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 275;
+            font-size: 32px;
+            line-height: 125%;
+            letter-spacing: 0.01em;
+            color: #000000;
+            max-width: 654px;
+        }
+        ul{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            color: #FFFFFF;
+            
+            li{
+                list-style-type: none;
+                &:hover{
+                    a{
+                        background-color: #9334BF;
+                        color: #FFFFFF;
+                    }
+                }
+                a{
+                    color: #9334BF;
+                    font-size: 50px;
+                    padding: 5px 15px;
+                    border-radius: 10px;
+                    transition: 700ms;
+                }
+            }
+        }
+    }
+    &-form{
+        margin: 170px 0 0 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #9435c01a;
+        padding: 100px 70px 250px 70px;
+        input{
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #9334BF;
+            margin-bottom: 5px;
+            outline: none;
+            padding: 15px 0;
+            background-color: transparent;
+        }
+        input[type=submit]{
+            width: 70%;
+            border: 2px solid #9334BF;
+            margin-top: 25px;
+            border-radius: 10px;
+            padding: 7px;
+            background-color: #9334BF;
+            color: #FFFFFF;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+            transition: 700ms;
+            &:hover{
+                color: #9334BF;
+                background-color: #FFFFFF;
+            }
+        }
+        textarea{
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #9334BF;
+            margin-bottom: 5px;
+            outline: none;
+            padding: 15px 0;
+            background-color: transparent;
+        }
+    }
+}
