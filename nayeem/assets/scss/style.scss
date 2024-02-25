@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 @keyframes sway {
     0% {
       transform: rotate(8deg);
@@ -29,7 +33,7 @@
     height: 100px;
     border-radius: 50%;
     display: block;
-    background-color: #2187C7;
+    background-color: #5D51F9;
     margin: 0 auto;
     position: relative;
     color: #fff;
@@ -49,7 +53,7 @@
   .object-rope {
     height: 100%;
     width: 5px;
-    background-color: #2187C7;
+    background-color: #5D51F9;
     content: "";
     display: block;
     margin-left: 50%;
