@@ -1,0 +1,536 @@
+//====================NAV SECTION START====================//
+.common__nav{
+    &--wrapper{
+        &--logo{}
+        &--nav{
+            ul{
+                li{
+                    &:first-child{
+                        a{
+                        }
+                    }
+                    &:last-child{
+                        a{
+                        }
+                    }
+                    a{
+                        font-size: 15px; //
+                        &:hover{
+                        }
+                    }
+                    &:nth-child(1){}
+                    &:nth-child(2){}
+                    &:nth-child(3){}
+                }
+            }
+        }
+        &--btn{
+            &--design{
+                font-size: 14px; //
+                &:hover{
+                }
+            }
+            &--talk{
+                font-size: 14px; //
+                &:hover{
+                }
+            }
+        }
+    }
+}
+//====================NAV SECTION ENDED====================//
+
+//====================FOOTER SECTION START====================//
+.common__footer{
+    &--nav{
+        h4{
+            font-size: 14px;//
+        }
+        ul{
+            li{
+                a{
+                    font-size: 14px;//
+                    &:hover{
+                    }
+                }
+            }
+        }
+        p{
+            font-size: 14px;//
+        }
+    }
+    &--copyright{
+        &--logo{
+            img{
+            }
+        }
+        &--social{
+            ul{
+                li{
+                    a{
+                        font-size: 15px;//
+                        &:hover{
+                        }
+                    }
+                    @keyframes icon-hover {
+                        0%{
+                            font-size: 15px;//
+                        } 50% {
+                            font-size: 18px;//
+                        } 100% {
+                            font-size: 15px;//
+                        }
+                    }
+                }
+            }
+        }
+        &--text{
+            p{
+                font-size: 14px;//
+                span{
+                    a{
+                        &:hover{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//====================FOOTER SECTION ENDED====================//
+
+//====================HERO SECTION START====================//
+.home__hero{
+    &::before{
+    }
+    &::after{
+    }
+    &--wrapper{
+        h5{
+        }
+        h1{
+        }
+        h2{
+            &::before{
+            }
+            &::after{
+            }
+        }
+        p{
+            font-size: 15px;//
+        }
+        &--btns{
+            a{
+                &:first-child{
+                    font-size: 14px;//
+                    &:hover{
+                    }
+                }
+                &:last-child{
+                    font-size: 17px;//
+                    &:hover{
+                    }
+                }
+            }
+        }
+        ul{
+            li{
+                a{
+                    img{
+                    }
+                    &:hover{
+                        img{
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &--overlay{
+    }
+}
+//====================HERO SECTION ENDED====================//
+
+//====================HOME TRUSTED START====================//
+.home__trusted{
+    &--title{
+        h4{
+            font-size: 17px;//
+        }
+    }
+    &--icons{
+    }
+}
+//====================HOME TRUSTED ENDED====================//
+
+//====================HOME WHY START====================//
+.home__why{
+    &--title{
+        h4{
+        }
+        h1{
+            max-width: 555px;
+        }
+    }
+    &--content{
+        flex-direction: column;
+        &--tabs{
+            &--btn{
+                .hwct__btn--contnt{
+                    h4{
+                        font-size: 15px;//
+                    }
+                    h2{
+                        font-size: 24px;//
+                    }
+                }
+                .hwct__btn--icon{
+                    font-size: 23px;//
+                }
+                &.active{
+                    .hwct__btn--contnt{
+                        h4{
+                        }
+                        h2{
+                        }
+                    }
+                    .hwct__btn--icon{
+                    }
+
+                }
+            }
+        }
+        &--panel{
+            width: 100%;
+                &--cover{
+                    width: 100%;
+                    img{
+                    }
+                    &.active{
+                    }
+                }
+            }
+    }
+}
+//====================HOME WHY ENDED====================//
+
+//====================HOME TESTIMONIAL START====================//
+.home__testimonial{
+    &--item{
+        &--content{
+            h2{
+                font-size: 31px;//
+            }
+            p{
+                font-size: 17px;//
+            }
+            &--profile{
+                .hticp__dp{
+                    img{
+                    }
+                }
+                .hticp__info{
+                    ul{
+                        li{
+                            img{}
+                        }
+                    }
+                    p{
+                        font-size:14px;//
+                        span{
+                            font-size: 14px;//
+                        }
+                    }
+                }
+            }
+        }
+        &--cover{
+            img{
+                max-width: 310px;
+            }
+        }
+    }
+    &--controller{
+        .swiper-button-next{
+            
+            &::after{
+                font-size: 10px;
+            }
+            &:hover{
+            }
+        }
+        .swiper-button-prev{
+            &::after{
+            }
+            &:hover{
+            }
+        }
+    }
+}
+//====================HOME TESTIMONIAL ENDED====================//
+
+//====================HOME WORK START====================//
+.home__work{
+    &--title{
+        h4{
+        }
+        h1{
+        }
+    }
+    &--slider{
+        &--card{
+            img{
+            }
+        }
+    }
+    &--btn{
+        a{
+            font-size: 14px;//
+            &:hover{
+            }
+        }
+    }
+}
+//====================HOME WORK ENDED====================//
+
+//====================HOME VS SECTION START====================//
+.home__vs{
+    &--title{
+        h4{
+        }
+        h1{
+        }
+    }
+    &--table{
+        overflow-x:auto;
+        table{
+            
+            tr{
+                td{
+                    b{
+                    }
+                    &:last-child{
+                        p{
+                        }
+                    }
+                    p{
+                        font-size: 17px;//
+                    }
+                    img{
+                    }
+                    &.custom-td-color{
+                    }
+                }
+                &:nth-child(even){
+                }
+                
+            }
+        }
+    }
+}
+//====================HOME VS SECTION START====================//
+
+//====================GROWTH SECTION START====================//
+.home__growth{
+    &--title{
+        h4{
+        }
+        h1{
+        }
+    }
+    &--counter{
+        &--item{
+            h2{
+                font-size: 45px;//
+            }
+            p{
+                font-size: 15px;//
+            }
+        }
+    }
+}
+//====================GROWTH SECTION ENDED====================//
+
+//====================HOME HOW SECTION START====================//
+.home__how{
+    &--title{
+        h4{
+        }
+        h1{
+        }
+    }
+    &--wrapper{
+        &--card{
+            max-width: 290px;
+            img{
+                width: 100%;
+            }
+            &--title{
+                h3{
+                    font-size: 24px;//
+                }
+                div{
+                    font-size: 39px;//
+                }
+            }
+            p{
+                font-size: 14px;//
+            }
+        }
+    }
+}
+//====================HOME HOW SECTION ENDED====================//
+
+//====================COMMON SCHEDULE START====================//
+.home__common{
+    &--wrapper{
+        &--text{
+            h2{
+                font-size: 31px;//
+            }
+            p{
+                font-size: 17px;//
+            }
+        }
+        &--btn{
+            a{
+                font-size: 14px;//
+                &:hover{
+                }
+            }
+        }
+    }
+}
+//====================COMMON SCHEDULE ENDED====================//
+
+//====================HOME FAQ START====================//
+.home__faq{
+    &--title{
+        h4{
+        }
+        h1{
+        }
+    }
+    .faq{
+    }
+    .question{
+        font-size: 17px;//
+        &::before {
+            font-size: 14px;
+        }
+    }
+    .answer{
+        font-size: 17px;//
+    }
+      .expanded .question::before {
+
+      }
+}
+//====================HOME FAQ ENDED====================//
+
+//====================HOME NETWORKS START====================//
+.home__networks{
+    &--title{
+        h4{
+        }
+        h1{
+        }
+    }
+    &--items{
+        gap: 30px;
+        &--card{
+            img{}
+        }
+    }
+}
+//====================HOME NETWORKS ENDED====================//
+
+//====================HOME TEAM START====================//
+.home__team{
+    &--title{
+        h4{
+        }
+        h1{
+        }
+    }
+    &--card{
+        img{
+        }
+        h3{
+            font-size: 24px;//
+        }
+        p{
+            font-size: 15px;//
+        }
+    }
+}
+//====================HOME TEAM ENDED====================//
+
+//====================COMMON POPUP START====================//
+.talk__popup--color{
+    .modal-dialog{
+        max-width: 1030px;
+        .modal-content{
+        }
+        .modal-header{
+        }
+    }
+}
+
+.talk__popup{
+    h1{
+    }
+    &--content{
+        gap: 75px;
+        &--profile{
+            img{
+                height: 220px;
+                width: 220px;
+            }
+            ul{
+                li{
+                    a{
+                        img{
+                        }
+                    }
+                }
+            }
+        }
+        &--form{
+            form{
+                input{
+                }
+                textarea{
+                
+                }
+                input[type=submit]{
+                }
+            }
+        }
+    }
+}
+.thanks__popup--color{
+    .modal-dialog{
+        max-width: 1030px;
+        .modal-content{
+        }
+        .modal-header{
+        }
+    }
+}
+.thanks__popup{
+    &--content{
+        img{
+        }
+        h1{
+        }
+        p{
+            
+        }
+        a{
+            &:hover{
+            }
+        }
+    }
+}
+//====================COMMON POPUP ENDED====================//
